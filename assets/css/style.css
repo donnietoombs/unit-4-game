@@ -1,0 +1,85 @@
+body {
+    background: url(../images/congruent_pentagon.png);
+}
+
+
+#gameHeader {
+    position: relative;
+    width: 380px;
+    height: 125px;
+    background-color: orange;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    line-height:125px;
+    margin: 10px 0 10px 10px;
+}
+
+#instBox{
+    background-color: bisque;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0 10px 10px;
+    width: 475px;
+    margin-bottom:25px;
+}
+
+#statusBoxes{
+    margin-left: 10px;
+}
+#scoreBox {
+    width:250px;
+    height: 175px;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    line-height: 175px;
+    background-color: aqua;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    }
+
+#winLossBox{
+    background-color: lightcyan;
+    height: 175px;
+    width: 250px;
+    float: left;
+    clear:right;
+    margin-bottom:25px;
+
+}
+#scoreHeading{
+    background-color: greenyellow;
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+    width: 175px;      
+}
+
+#crystalButtons{
+    margin: 25px 0 25px 10px;
+    clear: both;
+    }
+
+#ttlScore{
+    background-color: greenyellow;
+    height: 250px;
+    width: 350px;
+    margin-top:25px;
+    font-weight: bolder;
+}
+
+#scoreDiv{
+    margin-left: 10px;
+}
+
+#gameWins{
+    color: orange;   
+}
+
+#gameLosses{
+    color: red;
+}
+
