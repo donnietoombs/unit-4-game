@@ -21,7 +21,7 @@ $(document).ready(function () {
         cRed = ranNumFun();
         cYellow = ranNumFun();
 
-        ranNum = Math.floor((Math.random() * 108) + 17);
+        ranNum = Math.floor((Math.random() * 120) + 19);
         $("#scoreBox").text(ranNum);
 
         ttlScore = 0
