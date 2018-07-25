@@ -8,7 +8,6 @@
     <title>Crystal Game</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
@@ -31,37 +30,66 @@
         <br>
         <br>
     </div>
-   
-<div id="statusBoxes">
+
+    <div id="statusBoxes">
         <div id="scoreBox"></div>
         <div id="winLossBox">
-            <p id="gameWins">WINS</p>
+            <p id = "gameWins">WINS</p>
             <br>
             <br>
-            <p id="gameLosses">LOSSES</p>
-           
+            <p id ="gameLosses">LOSSES</p>
+
         </div>
     </div>
 
-<div id="crystalButtons">
-        <button id="buttonBlue">
-            <img src="assets/images/blue.png" </button>
-            <button id="buttonGreen">
+    <div id="crystalButtons">
+        <div>
+            <button id="bluecrystal">
+                <img src="assets/images/blue.png" </button>
+                <br>
+                <br>
+                <br>
+                <p id="blueValue"></p>
+        </div>
+        <div>
+            <button id="greencrystal">
                 <img src="assets/images/green.png" </button>
-                <button id="buttonRed">
-                    <img src="assets/images/red.png" </button>
-                    <button id="buttonYellow">
-                        <img src="assets/images/yellow.png" </button>
-</div>
+                <br>
+                <br>
+                <p id="greenValue"></p>
+        </div>
+        <div>
+            <button id="redcrystal">
+                <img src="assets/images/red.png" </button>
 
-<div id="scoreDiv">
-<div id="scoreHeading">Your total score is:</div>
-<div id ="ttlScore"></div>
+                <p id="redValue"></p>
+        </div>
+
+        <div>
+            <button id="yellowcrystal">
+                <img src="assets/images/yellow.png" </button>
+                <br>
+                <br>
+                <p id="yellowValue"></p>
+        </div>
+
+    </div>
+
+    <div>
 
 
-</div>
+    </div>
 
+    <div id="scoreDiv">
+        <div id="scoreHeading">Your total score is:</div>
+        <div id="ttlScore"></div>
+
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
 
 </html>
